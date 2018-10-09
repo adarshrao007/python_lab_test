@@ -1,3 +1,6 @@
+"""Create a file with many IP's. Now take IP as an input from CLA, and see whether the IP is present in the IP file. Also print the count of the IP's matched. 
+(here it is one after other)"""
+
 import sys;
 
 
