@@ -1,5 +1,4 @@
-
-
+"""Extend the problem 1a, as IP's are stored in a horizontal manner as a single line. Apply the same task to it."""
 
 import sys;
 
