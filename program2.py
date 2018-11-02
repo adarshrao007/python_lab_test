@@ -78,7 +78,7 @@ def alter_table():
         mycursor = conn_db.cursor()
 
         col = input("Enter column name\n")
-        sql = "ALTER TABLE reg_no add %s VARCHAR(255)" % (col)
+        sql = "ALTER TABLE info add %s VARCHAR(255)" % (col)
 
         try:
             mycursor.execute(sql)
